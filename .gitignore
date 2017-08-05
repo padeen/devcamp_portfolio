@@ -19,3 +19,7 @@
 .byebug_history
 /config/secrets.yml
 /config/database.yml
+
+#ignore vim swap files
+*.swp
+*.swo
