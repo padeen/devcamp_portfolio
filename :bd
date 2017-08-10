@@ -1,0 +1,30 @@
+"window navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+"Buffer switching
+nnoremap <C-n> :bnext<CR>
+"nnoremap <C-]> :bnext<CR>
+"nnoremap <C-[> :bprevious<CR>
+nnoremap <TAB> :ls<CR>:buffer<Space>
+cnoremap d :bd<CR>
+"set hidden
+
+"set tabstop
+set tabstop=2
+set shiftwidth=2
+set autoindent
+set number
+set tw=80
+set incsearch
+
+set history=1000
+set autoread
+let mapleader=","
+set scrolloff=3
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
