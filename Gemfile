@@ -46,6 +46,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 	gem 'friendly_id', '~> 5.1.0'
+	gem 'pry-rails', :group => :development
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
