@@ -1,2 +1,0 @@
-#remove vim cache
-git rm . -r --cached
